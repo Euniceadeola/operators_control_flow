@@ -27,6 +27,12 @@
         ||	|| is known as OR operator. It checks whether any one of the two operands is non-zero or not (0, false, undefined, null or "" is considered as zero). It returns 1 if any one of of them is non-zero; otherwise, returns 0.
         !	! is known as NOT operator. It reverses the boolean result of the operand (or condition). !false returns true, and !true returns false.
     5.  Bitwise Operators:
+         &   bitwise AND
+        |   bitwise OR
+        ^   bitwise exclusive OR
+        <<  shift left
+        >>  shift right
+        ~   one's complement
 2.  Examples ofJavascript Operator
     1.  Arithmetic Operators:
         let x = 5, y = 10;
@@ -54,7 +60,8 @@
         !(a > b); // returns true 
 
     5.   Bitwise Operators:
-
+        let e=20; console.log(if>> 90);
+        let j=80; console.log(j & 40)
 4.  1
     8
     15
